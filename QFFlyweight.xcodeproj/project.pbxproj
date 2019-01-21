@@ -14,6 +14,10 @@
 		FDBBBCB821F5BA66002D6C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBBBCB621F5BA66002D6C91 /* LaunchScreen.storyboard */; };
 		FDBBBCC321F5BA66002D6C91 /* QFFlyweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCC221F5BA66002D6C91 /* QFFlyweightTests.swift */; };
 		FDBBBCCE21F5BA66002D6C91 /* QFFlyweightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCCD21F5BA66002D6C91 /* QFFlyweightUITests.swift */; };
+		FDBBBCE821F5DB7C002D6C91 /* WebSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCE721F5DB7C002D6C91 /* WebSite.swift */; };
+		FDBBBCEA21F5DB93002D6C91 /* ConcreteWebSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCE921F5DB93002D6C91 /* ConcreteWebSite.swift */; };
+		FDBBBCEC21F5DBFC002D6C91 /* WebSiteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCEB21F5DBFC002D6C91 /* WebSiteFactory.swift */; };
+		FDBBBCEE21F5E972002D6C91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBBBCED21F5E972002D6C91 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FDBBBCC921F5BA66002D6C91 /* QFFlyweightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFFlyweightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBBBCCD21F5BA66002D6C91 /* QFFlyweightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFFlyweightUITests.swift; sourceTree = "<group>"; };
 		FDBBBCCF21F5BA66002D6C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBBBCE721F5DB7C002D6C91 /* WebSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSite.swift; sourceTree = "<group>"; };
+		FDBBBCE921F5DB93002D6C91 /* ConcreteWebSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteWebSite.swift; sourceTree = "<group>"; };
+		FDBBBCEB21F5DBFC002D6C91 /* WebSiteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSiteFactory.swift; sourceTree = "<group>"; };
+		FDBBBCED21F5E972002D6C91 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				FDBBBCAD21F5BA65002D6C91 /* AppDelegate.swift */,
 				FDBBBCAF21F5BA65002D6C91 /* ViewController.swift */,
+				FDBBBCE721F5DB7C002D6C91 /* WebSite.swift */,
+				FDBBBCE921F5DB93002D6C91 /* ConcreteWebSite.swift */,
+				FDBBBCEB21F5DBFC002D6C91 /* WebSiteFactory.swift */,
+				FDBBBCED21F5E972002D6C91 /* User.swift */,
 				FDBBBCB121F5BA65002D6C91 /* Main.storyboard */,
 				FDBBBCB421F5BA66002D6C91 /* Assets.xcassets */,
 				FDBBBCB621F5BA66002D6C91 /* LaunchScreen.storyboard */,
@@ -258,6 +270,10 @@
 			files = (
 				FDBBBCB021F5BA65002D6C91 /* ViewController.swift in Sources */,
 				FDBBBCAE21F5BA65002D6C91 /* AppDelegate.swift in Sources */,
+				FDBBBCEE21F5E972002D6C91 /* User.swift in Sources */,
+				FDBBBCEA21F5DB93002D6C91 /* ConcreteWebSite.swift in Sources */,
+				FDBBBCEC21F5DBFC002D6C91 /* WebSiteFactory.swift in Sources */,
+				FDBBBCE821F5DB7C002D6C91 /* WebSite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QFFlyweight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QFFlyweight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
